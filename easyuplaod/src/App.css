@@ -1,0 +1,163 @@
+.loginpage h2{
+    margin-bottom:50px;
+    text-align: center;
+    color:white;
+    font-size:30px;
+}
+.loginpage h1{
+    margin-bottom:50px;
+    text-align: center;
+    color:white;
+    font-size:100px;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('src/font/CustomFont.woff2') format('woff2'),
+         url('src/font/CustomFont.woff') format('woff');
+        
+    font-weight: normal;
+    font-style: normal;
+}
+.loginpage button{
+    background-color:#313a5f;
+    border:2px solid green;
+    height:80px;
+    width:400px;
+    font-size:30px;
+    color:white;
+    border:2px solid white;
+    border-radius:10px;
+    box-shadow: 2px 5px 10px white;
+}
+.loginpage button:hover{
+    box-shadow: 2px 0px 0px white;
+    cursor:pointer;
+    margin-top:10px;
+}
+.but{
+    margin-top:100px;
+    display:flex;
+    height:100vh;
+    width:100vw;
+    gap:20px;
+    justify-content:center;
+}
+.loginpage{
+    position:fixed;
+    padding-top:0px;
+    margin-top:0px;
+    height:100vh;
+    width:100vw;
+    background-color:#1A1A1D;
+    font-weight:normal;
+    font-family: 'CustomFont', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    font-weight:normal;
+    font-family: 'CustomFont', sans-serif;
+    
+}
+a:hover{
+    color:#45474B;
+}
+nav{
+ 
+    position:fixed;
+    top:0px;
+    z-index: 2;
+    width:100VW;
+    display: flex;
+    gap:30px;
+    padding:20px;
+    background-color: #121212;
+    border-bottom: 2px solid black;
+}
+nav button{
+    margin-left:830px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color:red;
+    color:white;
+  
+}
+.mainpage{
+    position:relative;
+    top:90px;
+    left:10px;
+    font-weight:normal;
+    font-family: 'CustomFont', sans-serif;
+    margin-bottom: 100px;;
+}
+
+
+.layout{
+    font-family: 'Arial, sans-serif'
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .line {
+    height: 2px; /* Thickness of the line */
+    background-color: white; /* Color of the line */
+  }
+
+  .line.left,
+  .line.right {
+    width: 25%; /* Each line covers 25% of the page */
+  }
+
+  .space {
+    width:50px; /* Gap in between the lines */
+  }
+  .space p{
+    color:white;
+  }
+  /* Footer Styles */
+
+  /* Main container to apply flexbox layout */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures full height of the viewport */
+  }
+  
+  /* Main content area */
+  .mainpage {
+    flex: 1; /* Allows the main content to grow and push the footer down */
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    padding: 16px;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark gray text */
+    text-align: center;
+    border-top: 1px solid #dee2e6; /* Subtle border */
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  /* Container to structure the layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
